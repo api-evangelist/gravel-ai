@@ -1,7 +1,27 @@
 aid: gravel-ai
 name: Gravel AI
-description: Gravel AI is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gravel AI is a beauty and personal care market intelligence platform that turns alternative data
+  into early trend, ingredient, brand, and product signals for the global cosmetics industry. It offers
+  a suite of analysis tools — application and ingredient trends, brand and market deep dives, consumer
+  review analysis, new brand and product launch monitoring, ingredient supplier and OEM mapping, and
+  product analyzers — alongside curated datasets, market reports, and an enterprise data/API service
+  that delivers licensed beauty data into customer pipelines (API, Snowflake, S3). Backed by Techstars,
+  Gravel AI serves beauty brands, ingredient and contract manufacturers, and enterprise insights, R&D,
+  procurement, and data teams. Its flagship Gravel Early Trends product positions against incumbents
+  such as Euromonitor, Mintel, NielsenIQ, Circana, WGSN, and Spate.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://gravelai.com/gravel-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/gravel-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Personal Care
+- Cosmetics
+- Market Intelligence
+- Trend Forecasting
+- Consumer Insights
+- Ingredients
+- Data
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gravel-ai-domain-security.yml
 - type: Website
   url: https://gravelai.com/
+- type: Blog
+  url: https://gravelai.com/blog
+- type: Support
+  url: https://gravelai.com/contact
+- type: SignUp
+  url: https://app.gravelai.com/login
+- type: TermsOfService
+  url: https://gravelai.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://gravelai.com/privacy-policy
+- type: LLMsTxt
+  url: llms/gravel-ai-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
